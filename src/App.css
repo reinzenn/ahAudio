@@ -70,7 +70,7 @@
     @apply bg-gradient-to-r from-gray-200 to-orange-200 inline-block text-transparent bg-clip-text shadow-2xl;
   }
   .bg-url-auriculares {
-    @apply bg-[url('/src/assets/auris.jpg')] bg-cover bg-center bg-blend-multiply bg-[#333344];
+    @apply bg-[url('/assets/auris.jpg')] bg-cover bg-center bg-blend-multiply bg-[#333344];
   }
 }
 
