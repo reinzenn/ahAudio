@@ -16,7 +16,7 @@ const Navbar = ({ scrollMoveY }) => {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 scroll-smooth">
           <img
-            src={"/src/assets/A5.png"}
+            src={"/assets/A5.png"}
             alt="logo"
             className={`h-18 bg-blend-overlay ${
               scrollMoveY && "invert opacity-80"

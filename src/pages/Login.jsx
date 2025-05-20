@@ -7,7 +7,7 @@ const Login = () => {
       <form className="flex flex-col items-center bg-[#23222cd0] p-5 rounded shadow-md bordered-box">
         <Link to="/" className="flex items-center gap-2 mb-5">
           <img
-            src={"/src/assets/A5.png"}
+            src={"/assets/A5.png"}
             alt="logo"
             className={`h-18 bg-blend-overlay `}
           />
