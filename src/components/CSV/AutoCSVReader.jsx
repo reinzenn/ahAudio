@@ -6,7 +6,7 @@ const AutoCSVReader = ({ onDataLoaded }) => {
   useEffect(() => {
     const fetchCSV = () => {
       const timestamp = new Date().getTime();
-      fetch(`/csv/NB-Lista-Precios.csv?t=${timestamp}`)
+      fetch(`./csv/NB-Lista-Precios.csv?t=${timestamp}`)
         .then((response) => response.text())
         .then((csvText) => {
           Papa.parse(csvText, {
