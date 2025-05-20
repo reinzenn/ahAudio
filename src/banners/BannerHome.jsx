@@ -1,5 +1,5 @@
 import React from "react";
-import "./Banners.css"; // Import your CSS file for custom styles
+import "./banners.css"; // Import your CSS file for custom styles
 
 const BannerHome = () => {
   return (
