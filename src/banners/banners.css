@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer components {
+  .banners {
+    @apply w-full mt-25 md:mt-30 h-[250px] md:h-[500px] border-b-1 border-[#50506b] shadow-2xl bg-cover bg-center flex flex-col justify-center items-center;
+  }
+  .banner-promociones {
+    @apply w-full mt-25 md:mt-30 h-[150px] md:h-[300px] border-b-1 border-[#50506b] shadow-2xl bg-cover bg-center flex flex-col justify-center items-center;
+  }
+}
